@@ -1,0 +1,14 @@
+{
+  "Service": [
+    {
+      "icon": "fa FaStar",
+      "numbers": "4.7/5",
+      "description": "Based on 50,000+ Reviews"
+    },
+    {
+      "icon": "fa FaPlus",
+      "numbers": "2,50,000",
+      "description": "Happy clients"
+    }
+  ]
+}

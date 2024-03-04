@@ -1,0 +1,47 @@
+.banner {
+  height: 100vh;
+  position: relative;
+}
+.banner-content {
+  position: absolute;
+  top: 15rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.banner-form {
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  border-radius: 12px;
+}
+.left-heading {
+  font-size: 1.8rem;
+}
+.left-btn {
+  display: grid;
+}
+
+.sect-pt4 {
+  padding-top: 4rem;
+}
+#services .icon-color {
+  color: var(--button-bg-color);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .banner-form {
+    width: 350px;
+    height: 500px;
+  }
+  .banner-heading {
+    font-size: 50px;
+  }
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .banner-heading {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 35px;
+  }
+}

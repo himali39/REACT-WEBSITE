@@ -7,6 +7,7 @@ const Button = ({ onClick, label }) => {
     border: "none",
     padding: "10px 21px 10px 17px",
     borderRadius: "10px",
+    fontWeight: "bold",
     cursor: "pointer",
   };
   return (
