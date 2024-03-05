@@ -30,7 +30,7 @@ const Banner = () => {
             <Col sm={12}>
               <Row>
                 {/* left side */}
-                <Col md={6}>
+                <Col md={6} xs={12} className="order-md-1 order-1">
                   <form>
                     <div className="banner-form p-5">
                       <p className="text-center font-bold left-heading">
@@ -76,17 +76,24 @@ const Banner = () => {
                   {/* </Row> */}
                 </Col>
                 {/* right side  */}
-                <Col md={6} data-aos="zoom-in">
-                  <div className="text-6xl font-bold text-white banner-heading">
-                    <p> BEST CAR</p> <p className="pt-5">ENGINEERING</p>
-                    <p className="pt-5">COMPANY</p>
-                  </div>
-                  <h6 className="banner-title text-sm font-bold text-white pt-4">
-                    Because they are not vehicles they are a Emotions
-                  </h6>
+                <Col
+                  md={6}
+                  xs={12}
+                  data-aos="zoom-in"
+                  className="order-md-2 order-2"
+                >
+                  <div className="banner-main">
+                    <div className="text-6xl font-bold text-white banner-heading">
+                      <p> BEST CAR</p> <p className="pt-5">ENGINEERING</p>
+                      <p className="pt-5">COMPANY</p>
+                    </div>
+                    <h6 className="banner-title text-sm font-bold text-white pt-4">
+                      Because they are not vehicles they are a Emotions
+                    </h6>
 
-                  <div className="pt-5">
-                    <Button onClick={handleLogin} label="Explore Services" />
+                    <div className="pt-5 explore-btn">
+                      <Button onClick={handleLogin} label="Explore Services" />
+                    </div>
                   </div>
                 </Col>
               </Row>

@@ -10,5 +10,54 @@
       "numbers": "2,50,000",
       "description": "Happy clients"
     }
+  ],
+  "ServiceBox": [
+    {
+      "images": "src/components/assets/images/service/service-1.svg"
+    },
+    {
+      "images": "src/components/assets/images/service/service-2.png"
+    },
+    {
+      "images": "src/components/assets/images/service/service-3.svg"
+    },
+    {
+      "images": "src/components/assets/images/service/service-4.svg"
+    },
+    {
+      "images": "src/components/assets/images/service/service-5.svg"
+    },
+    {
+      "images": "src/components/assets/images/service/service-6.svg"
+    },
+    {
+      "images": "src/components/assets/images/service/service-7.svg"
+    },
+    {
+      "images": "src/components/assets/images/service/service-8.svg"
+    },
+    {
+      "images": "src/components/assets/images/service/service-9.svg"
+    },
+    {
+      "images": "src/components/assets/images/service/service-10.svg"
+    },
+    {
+      "images": "src/components/assets/images/service/service-11.svg"
+    },
+    {
+      "images": "src/components/assets/images/service/service-12.svg"
+    }
+  ],
+  "seeMore": [
+    {
+      "images": "src/components/assets/images/seemore/seemore-1.svg"
+    },
+    {
+      "images": "src/components/assets/images/seemore/seemore-2.svg"
+    },
+    {
+      "images": "src/components/assets/images/seemore/seemore-3.svg"
+    }
   ]
 }
